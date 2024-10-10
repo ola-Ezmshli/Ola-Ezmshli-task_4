@@ -1,0 +1,146 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+:root
+{
+    --main-color : #3fbabf;
+}
+.navbar1
+{
+    background-color: var(--main-color);
+}
+.logo
+{
+    width: 70%;
+}
+.Blue-button
+{
+    background-color: var(--main-color);
+}
+.Blue-button:hover{
+    background-color: var(--main-color);
+}
+.div-slider
+{  
+    width:50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: fit-content;
+    border-top: 10px solid var(--main-color);
+}
+
+.carousel-instruction [data-bs-target]
+{
+    width: 15px;
+    height: 15
+    px;
+
+}
+.carousel-indicators .pressed
+{
+    background-color: var(--main-color);
+}
+.hero
+{
+    height: calc(100vh - 128px);
+}
+.blue
+{
+    width: 45px;
+    height: 3px;
+    background-color: var(--main-color);
+    border-radius: 10px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.icon 
+{
+    color: var(--main-color);
+}
+.slide-img
+{
+    height: calc(100vh - 128px);
+    object-fit: cover;
+}
+.Address,.phone,.Email
+{
+    width: 70px;
+    height: 70px;
+    border: 1px dashed var(--main-color);
+
+}
+.Address,.Email ,.phone
+{
+    color: var(--main-color);
+    font-size: 24px;
+}
+.email-address
+{
+    color: var(--main-color);
+}
+
+
+.footer .info ul {
+    width: 40px;
+    height: 40px;
+    color: gray;
+
+
+}
+.end
+{
+    color: var(--main-color);
+}
+
+
+
+
+
+@media (max-width : 576px) {
+    .navbar1
+    {
+        display: none;
+    }
+    .div-slider 
+    {
+        width: 50%;
+    }
+    .div-slider h5 
+    {
+        font-size: 13px;
+    }
+    .div-slider p 
+    {
+        font-size: 9px;
+        margin-bottom: 0;
+    }
+    .div-slider a
+    {
+        font-size: 8px;
+        
+    }
+    .carousel-indicators
+    {
+        margin: 0;
+    }
+    .carousel-indicators [data-bs-target]
+    {
+        width: 10px;
+        height: 10px;
+    }  
+    .slide-img
+    {
+        height: calc(100vh - 56px);
+    }
+    .hero
+    {
+        height: calc(100vh - 56px);
+    }
+  
+
+}
